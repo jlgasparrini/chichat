@@ -1,31 +1,10 @@
 import React from 'react';
-import logo from './logo.png';
-import './App.css';
-import { Button } from '@material-ui/core';
+import 'App.css';
+import Landing from 'views/Landing';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-
-        <h1 style={{ fontFamily: 'cursive' }}>
-          CHICHAT
-        </h1>
-
-        <h2>
-          WHERE BULLYING HAPPENS
-        </h2>
-        <p style={{ fontFamily: 'italic' }}>
-          I'm joking, just to talk with your friends! You know...
-          Don't be a disrespectful motherfuc***.
-        </p>
-
-        <Button variant="contained" size="large">
-          Touch to joke with your friends
-        </Button>
-      </header>
-    </div>
+    <Landing />
   );
 }
 
