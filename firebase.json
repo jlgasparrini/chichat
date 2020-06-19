@@ -1,6 +1,7 @@
 {
   "hosting": {
-    "public": "public",
+    "site": "chichat",
+    "public": "build",
     "ignore": [
       "firebase.json",
       "**/.*",
