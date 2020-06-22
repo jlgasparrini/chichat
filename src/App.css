@@ -7,6 +7,11 @@
   pointer-events: none;
 }
 
+.App-logo-header {
+  height: 10vmin;
+  pointer-events: none;
+}
+
 .App-header {
   min-height: 100vh;
   display: flex;
@@ -16,6 +21,22 @@
   font-size: calc(10px + 2vmin);
 }
 
+.Chat-header {
+  min-height: 10vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
 .App-link {
   color: #61dafb;
+}
+
+.chats {
+  margin-bottom: 100px;
+  overflow-y: scroll;
 }

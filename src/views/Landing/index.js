@@ -2,7 +2,7 @@ import React from 'react';
 import logo from 'logo.png';
 import { Button } from '@material-ui/core';
 
-const Landing = () => (
+const Landing = ({ history }) => (
   <div className="App">
     <header className="App-header">
       <img src={logo} className="App-logo" alt="logo" />
@@ -19,7 +19,7 @@ const Landing = () => (
         Don't be a disrespectful motherfuc***.
       </p>
 
-      <Button variant="contained" size="large">
+      <Button variant="contained" size="large" onClick={() => history.push('/login')}>
         Touch to joke with your friends
       </Button>
     </header>
